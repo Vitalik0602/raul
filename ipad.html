@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>iPad — RAUL | Цены и наличие</title>
+  <meta name="description" content="iPad в наличии: актуальные модели, цвета и комплектации. Казань, доставка по всей России." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo"><span class="logo__mark"></span><span class="logo__text">RAUL</span></a>
+      <nav class="nav">
+        <a class="nav__link" href="iphone.html">iPhone</a>
+        <a class="nav__link nav__link--active" href="ipad.html">iPad</a>
+        <a class="nav__link" href="macbook.html">MacBook</a>
+        <a class="nav__link" href="watch.html">Apple Watch</a>
+        <a class="nav__link" href="airpods.html">AirPods</a>
+      </nav>
+      <div class="header__meta"><span class="city">Казань</span><span class="ship">Доставка по всей России</span></div>
+      </div>
+  </header>
+
+  <section class="category-hero hero--compact">
+    <div class="container">
+      <h1 class="title title--xl">iPad</h1>
+      <p class="subtitle">Мощность и мобильность для творчества, работы и развлечений. Выберите свою модель.</p>
+    </div>
+    <div class="hero__bg-glass"></div>
+  </section>
+
+  <section class="list">
+    <div class="container">
+      <div class="grid grid--products">
+        <article class="product glass">
+          <div class="product__media">
+            <img src="https://images.unsplash.com/photo-1551817958-2020400f7c43?q=80&w=1200&auto=format&fit=crop" alt="iPad Pro" />
+          </div>
+          <div class="product__body">
+            <h3 class="title title--md">iPad Pro</h3>
+            <ul class="specs">
+              <li><strong>Дисплей:</strong> 11″ или 13″ Ultra Retina XDR</li>
+              <li><strong>Чип:</strong> M4</li>
+              <li><strong>Камера:</strong> 12 МП, LiDAR</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">от 109 990 ₽</span>
+              <span class="stock">в наличии</span>
+            </div>
+            <button class="btn btn--primary" data-buy="iPad Pro">Купить</button>
+          </div>
+        </article>
+
+        <article class="product glass">
+          <div class="product__media">
+            <img src="https://images.unsplash.com/photo-1544244090-6c8866b05c99?q=80&w=1200&auto=format&fit=crop" alt="iPad Air" />
+          </div>
+          <div class="product__body">
+            <h3 class="title title--md">iPad Air</h3>
+            <ul class="specs">
+              <li><strong>Дисплей:</strong> 11″ или 13″ Liquid Retina</li>
+              <li><strong>Чип:</strong> M2</li>
+              <li><strong>Автономность:</strong> до 10 часов</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">от 79 990 ₽</span>
+              <span class="stock">в наличии</span>
+            </div>
+            <button class="btn btn--primary" data-buy="iPad Air">Купить</button>
+          </div>
+        </article>
+
+        <article class="product glass">
+          <div class="product__media">
+            <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1200&auto=format&fit=crop" alt="iPad" />
+          </div>
+          <div class="product__body">
+            <h3 class="title title--md">iPad</h3>
+            <ul class="specs">
+              <li><strong>Дисплей:</strong> 10.9″ Liquid Retina</li>
+              <li><strong>Чип:</strong> A14 Bionic</li>
+              <li><strong>Камера:</strong> 12 МП</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">от 49 990 ₽</span>
+              <span class="stock">в наличии</span>
+            </div>
+            <button class="btn btn--primary" data-buy="iPad">Купить</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact glass">
+    <div class="container contact__inner">
+      <h2 class="title title--lg">Связаться по iPad</h2>
+      <form class="tg-form" id="ipad-tg-form" data-form="iPad">
+        <div class="form__row">
+          <label class="form__label">Имя</label>
+          <input class="input" type="text" name="name" required />
+        </div>
+        <div class="form__row">
+          <label class="form__label">Телефон</label>
+          <input class="input" type="tel" name="phone" required />
+        </div>
+        <div class="form__row">
+          <label class="form__label">Модель и комментарий</label>
+          <textarea class="textarea" name="message" placeholder="iPad Pro, 13″, Silver" required></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Отправить заявку</button>
+        <p class="form__status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__brand"><span class="logo__mark"></span><span class="logo__text">RAUL</span></div>
+      <div class="footer__meta"><span>Казань • Доставка по РФ</span><span>© RAUL, 2025</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

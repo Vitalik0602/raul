@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apple Watch — RAUL | Цены и наличие</title>
+  <meta name="description" content="Apple Watch в наличии: актуальные модели, цвета и комплектации. Казань, доставка по всей России." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo"><span class="logo__mark"></span><span class="logo__text">RAUL</span></a>
+      <nav class="nav">
+        <a class="nav__link" href="iphone.html">iPhone</a>
+        <a class="nav__link" href="ipad.html">iPad</a>
+        <a class="nav__link" href="macbook.html">MacBook</a>
+        <a class="nav__link nav__link--active" href="watch.html">Apple Watch</a>
+        <a class="nav__link" href="airpods.html">AirPods</a>
+      </nav>
+      <div class="header__meta"><span class="city">Казань</span><span class="ship">Доставка по всей России</span></div>
+      </div>
+  </header>
+
+  <section class="category-hero hero--compact">
+    <div class="container">
+      <h1 class="title title--xl">Apple Watch</h1>
+      <p class="subtitle">Здоровье, фитнес и стиль на вашем запястье. Выберите свою модель.</p>
+    </div>
+    <div class="hero__bg-glass"></div>
+  </section>
+
+  <section class="list">
+    <div class="container">
+      <div class="grid grid--products">
+        <article class="product glass">
+          <div class="product__media">
+            <img src="https://images.unsplash.com/photo-1518443890-75e0b0b1bb2f?q=80&w=1200&auto=format&fit=crop" alt="Apple Watch Ultra" />
+          </div>
+          <div class="product__body">
+            <h3 class="title title--md">Apple Watch Ultra</h3>
+            <ul class="specs">
+              <li><strong>Корпус:</strong> 49 мм, титан</li>
+              <li><strong>Функции:</strong> GPS, глубиномер, сирена</li>
+              <li><strong>Автономность:</strong> до 36 часов</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">от 89 990 ₽</span>
+              <span class="stock">в наличии</span>
+            </div>
+            <button class="btn btn--primary" data-buy="Apple Watch Ultra">Купить</button>
+          </div>
+        </article>
+
+        <article class="product glass">
+          <div class="product__media">
+            <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=1200&auto=format&fit=crop" alt="Apple Watch Series 9" />
+          </div>
+          <div class="product__body">
+            <h3 class="title title--md">Apple Watch Series 9</h3>
+            <ul class="specs">
+              <li><strong>Дисплей:</strong> Always-On Retina</li>
+              <li><strong>Функции:</strong> Двойной тап, датчик кислорода</li>
+              <li><strong>Автономность:</strong> до 18 часов</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">от 49 990 ₽</span>
+              <span class="stock">в наличии</span>
+            </div>
+            <button class="btn btn--primary" data-buy="Apple Watch Series 9">Купить</button>
+          </div>
+        </article>
+
+        <article class="product glass">
+          <div class="product__media">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1200&auto=format&fit=crop" alt="Apple Watch SE" />
+          </div>
+          <div class="product__body">
+            <h3 class="title title--md">Apple Watch SE</h3>
+            <ul class="specs">
+              <li><strong>Дисплей:</strong> Retina</li>
+              <li><strong>Функции:</strong> Фитнес-трекинг, уведомления</li>
+              <li><strong>Автономность:</strong> до 18 часов</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">от 29 990 ₽</span>
+              <span class="stock">в наличии</span>
+            </div>
+            <button class="btn btn--primary" data-buy="Apple Watch SE">Купить</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact glass">
+    <div class="container contact__inner">
+      <h2 class="title title--lg">Связаться по Apple Watch</h2>
+      <form class="tg-form" id="watch-tg-form" data-form="Apple Watch">
+        <div class="form__row">
+          <label class="form__label">Имя</label>
+          <input class="input" type="text" name="name" required />
+        </div>
+        <div class="form__row">
+          <label class="form__label">Телефон</label>
+          <input class="input" type="tel" name="phone" required />
+        </div>
+        <div class="form__row">
+          <label class="form__label">Модель и комментарий</label>
+          <textarea class="textarea" name="message" placeholder="Apple Watch Series 9, 45 мм, Midnight" required></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Отправить заявку</button>
+        <p class="form__status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__brand"><span class="logo__mark"></span><span class="logo__text">RAUL</span></div>
+      <div class="footer__meta"><span>Казань • Доставка по РФ</span><span>© RAUL, 2025</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
